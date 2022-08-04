@@ -5,12 +5,12 @@ html {
   line-height: 1.5;
 }
 
-*, *::after, *::before {
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
 body {
-margin: 0;
+  margin: 0;
 }
 
 header {
@@ -32,13 +32,15 @@ header img {
   width: 2rem;
   padding-left: 1rem;
 }
+
 header p {
   font-size: 1.125rem;
   margin: auto;
 }
+
 nav ul {
   display: flex;
-  font-size: 1.125rem
+  font-size: 1.125rem;
   list-style-type: none;
   justify-content: flex-end;
   margin: auto;
@@ -50,6 +52,7 @@ nav a {
   margin-right: 1rem;
   padding-left: 1rem;
 }
+
 a:hover {
   color: #fff;
 }
